@@ -1,0 +1,13 @@
+git config --global --replace-all user.name "bsoto"
+git config --global --replace-all user.email "bsoto.dev@gmail.com"
+
+git init
+git remote add origin https:.....
+git add -A
+git commit -m "First Commit"
+git push origin master
+
+git checkout -b develop
+git add -A
+git commit -m "Second Commit"
+git push origin develop
